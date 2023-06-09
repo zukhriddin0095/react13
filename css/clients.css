@@ -28,6 +28,7 @@
     border-radius: 10px;
     border-radius: 10px;
     box-shadow: 1px 2px 15px #FFE7F0;
+    transition: 0.4s;
 }
 .clients__item:nth-child(2) {
     background: #EDFFF5;
@@ -68,8 +69,9 @@
     .clients__list {
         display: flex;
         flex-direction: column;
+        margin-top: 80px;
     }
     .clients__item {
-        margin-bottom: 100px;
+        
     }
 }
