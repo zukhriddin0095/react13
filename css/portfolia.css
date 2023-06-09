@@ -1,0 +1,52 @@
+
+
+.portfolia__top {
+    display: flex;
+    justify-content: space-between;
+}
+.portfolia__title {
+    max-width: 204px;
+    height: 96px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #25202F;
+}
+.portfolia__link {
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #25202F;
+}
+.portfolia__link::after {
+    content: '→';
+    text-decoration: none;
+    box-sizing: border-box;
+    margin-left: 13px;
+    
+}
+.portfolia__imgs {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.portfolia__img {
+    max-width: 100%;
+}
+@media (max-width: 1150px) {
+    .portfolia__imgs {
+        display: flex;
+        flex-wrap: wrap;
+       gap: 30px;
+    }
+    .portfolia__img {
+        margin-top: 30px;
+    }
+}
+@media (max-width: 500px) {
+    .portfolia__link {
+        display: none;
+    }
+}
