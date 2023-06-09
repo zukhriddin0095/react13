@@ -67,6 +67,6 @@
 @media (max-width: 1050px) {
     .clients__list {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
     }
 }
