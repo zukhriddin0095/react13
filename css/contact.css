@@ -72,9 +72,12 @@
 .contact__me-img {
    margin-left: 25px;
 }
-.contact__me-wep {
+.contact__me-weps {
     text-align: center;
     margin-bottom: 50px;
+}
+.contact__me-wep {
+    cursor: pointer;
 }
 .contact__end-title {
     margin-top: 118px;
