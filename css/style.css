@@ -6,6 +6,7 @@
 @import url(./clients.css);
 @import url(./testimonials.css);
 @import url(./blog.css);
+@import url(./contact.css);
 
 * {
     padding: 0;

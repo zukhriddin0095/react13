@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.contact__me {
+    display: flex;
+    justify-content: space-between;
+}
+.contact__me-title {
+    width: 512px;
+    height: 156px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 52px;
+    color: #21232D;
+
+}
+.contact__me-email {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration-line: underline;
+    text-transform: lowercase;
+    color: #8643DC;
+}
+.contact__inputs {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+.contact__input {
+    max-width: 100%;
+    height: 50px;
+    background-color: transparent;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #DAD2E3;
+    font-size: 20px;
+    line-height: 26px;
+    color: #A8A0B0;
+}
+
+.contact__me-box {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact__me-btn {
+    margin-top: 30px;
+  margin-bottom: 50px;
+}
+.contact__form-btn { 
+    padding: 18px 50px;
+    border: 1px solid #8643DC;
+    background: #8643DC;
+    border-radius: 100px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+.contact__form-btn:hover {
+    color: #8643DC;
+    background-color: #fff;
+    border: 1px solid #8643DC;
+}
+.contact__me-img {
+   margin-left: 25px;
+}
+.contact__me-wep {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contact__end-title {
+    margin-top: 118px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #21232D;
+}
+@media (max-width: 800px) {
+    .contact__me-title {
+        display: none;
+    }
+    .contact__form-btn {
+        padding: 18px 25px;
+        width: 100%;
+    }
+    .contact__me-img {
+       max-width: 100%;
+    }
+}
+@media (max-width: 430px) {
+    .contact__me-img {
+        display: none;
+    }
+}
