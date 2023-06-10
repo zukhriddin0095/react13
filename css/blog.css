@@ -1,0 +1,107 @@
+
+
+.blog__wrapper {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.blog__derc {
+    font-size: 18px;
+    line-height: 24px;
+    color: #8643DC;
+}
+.blog__border {
+    margin-bottom: 15px;
+    margin-top: 10px;
+    width: 50px;
+    height: 3px;
+    background: #8643DC;
+}
+.blog__title {
+    margin-right: 25px;
+    width: 165px;
+    height: 96px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #25202F;
+}
+.blog__technology {
+    position: relative;
+    margin-right: 30PX;
+    
+}
+.blog__technology-derc {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #8643DC;
+}
+.blog__technology-title {
+    width: 350px;
+    height: 47px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+.blog__technology-img {
+    max-width: 100%;
+}
+.blog__devices {
+    position: relative;
+    margin-right: 30px;
+}
+.blog__devices-derc {
+
+    position: absolute;
+    right: 0;
+    left: 20px;
+    top: 225px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #fff;
+
+}
+.blog__devices-title {
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    width: 197px;
+    height: 72px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.problem__devices-title {
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    max-width: 212px;
+    height: 46px;
+    font-weight: 700;
+        font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+@media (max-width: 1170px) {
+    .blog__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .blog__technology-title {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 500px) {
+    .blog__technology-title {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    
+}

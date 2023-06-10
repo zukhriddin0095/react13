@@ -4,6 +4,8 @@
 @import url(./services.css);
 @import url(./portfolia.css);
 @import url(./clients.css);
+@import url(./testimonials.css);
+@import url(./blog.css);
 
 * {
     padding: 0;
